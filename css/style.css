@@ -3,6 +3,7 @@
   --main-background-color: #ffffff;
   --logo-color: #4d5ae5;
   --studio-color: #2e2f42;
+  --cloud: #f4f4fd;
 }
 
 body {
@@ -118,6 +119,7 @@ body {
   letter-spacing: 0.72px;
   text-transform: capitalize;
   color: var(--studio-color);
+  text-align: center;
 }
 .team-section {
   background-color: #f4f4fd;
@@ -139,7 +141,7 @@ body {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
-  letter-spacing: 0.2em;
+  letter-spacing: 0.02em;
   color: var(--studio-color);
 }
 .team-position {
@@ -148,17 +150,20 @@ body {
   letter-spacing: 0.2em;
 }
 .philter-button {
-  color: #4d5ae5;
+  font-family: "Roboto", sans-serif;
+  background-color: var(--cloud);
+  color: var(--logo-color);
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
+  letter-spacing: 0.04em;
   cursor: pointer;
 }
 
 .philter-button:hover,
 .philter-button:focus {
-  background: #404bbf;
-  color: #fff;
+  background-color: #404bbf;
+  color: #ffffff;
 }
 .portfolio-item-title {
   font-size: 20px;
@@ -179,4 +184,5 @@ body {
 .footer-catchphrase {
   color: #f4f4fd;
   line-height: 1.5;
+  letter-spacing: 0.02em;
 }
